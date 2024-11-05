@@ -119,3 +119,9 @@ width:100%;
 button:hover{
   border:none;
 }
+.navbar > div > a {
+color: #fff;
+}
+.navbar > a:visited {
+  color: #fff;
+}
