@@ -1,0 +1,61 @@
+body {
+    background-image: url('/img/userlogin_bg.jpg'); /* Replace with your forest image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: #5a91a7; /* Semi-transparent white background */
+    padding: 30px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity:0.8;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.login-form button  {
+    background-color: #0c3e6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
+   
+
+.login-form button:hover {
+    background-color: #ffffff;
+    color:black
+}

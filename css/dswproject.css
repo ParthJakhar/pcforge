@@ -11,6 +11,9 @@
     color: white;
     align-items: center;
     display: flex;
+    position:sticky;
+    top:0;
+    z-index: 1000;
    
   }
   
@@ -118,6 +121,7 @@ width:100%;
  
 button:hover{
   border:none;
+  
 }
 .navbar > div > a {
 color: #fff;
